@@ -178,7 +178,7 @@ export default defineConfig(({ command, isPreview }) => ({
           }
         : {},
     ),
-    ...(command === "build" || isPreview
+    ...(process.env.GITHUB_PAGES !== "true" && (command === "build" || isPreview)
       ? [
           nitro({
             preset: process.env.GITHUB_PAGES === "true" ? "static" : "vercel",
