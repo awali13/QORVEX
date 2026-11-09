@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 import { buttonClass, Kicker } from "@/components/site";
 
 /** Original supplied film. Not re-encoded. Soundtrack stays on. */
-const PROMO_SRC = "/promo/qorvex.mp4";
+const PROMO_SRC = `${import.meta.env.BASE_URL}promo/qorvex.mp4`;
 
 export function Film() {
   const videoRef = useRef<HTMLVideoElement>(null);

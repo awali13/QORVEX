@@ -11,7 +11,7 @@ function AboutPage() {
     <article>
       <div className="bg-ink pt-16">
         <img
-          src="/vehicles/xt-front.jpg"
+          src={`${import.meta.env.BASE_URL}vehicles/xt-front.jpg`}
           alt="QORVEX X-T on a mountain road, used as the house portrait."
           className="h-[58svh] w-full object-cover object-center"
         />

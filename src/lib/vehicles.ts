@@ -62,7 +62,7 @@ export const vehicles: Vehicle[] = [
     fees: { delivery: 1800, registration: 750, documentation: 420 },
     shots: [
       {
-        src: "/vehicles/v9-exterior.jpg",
+        src: `${import.meta.env.BASE_URL}vehicles/v9-exterior.jpg`,
         alt: "Silver QORVEX V9 four-seater grand tourer coupe with doors open, photographed at night outside a glass house.",
         frame: "banner",
         view: "exterior",
@@ -70,7 +70,7 @@ export const vehicles: Vehicle[] = [
         height: 328,
       },
       {
-        src: "/vehicles/v9-interior.jpg",
+        src: `${import.meta.env.BASE_URL}vehicles/v9-interior.jpg`,
         alt: "QORVEX V9 front cabin in cashmere leather, with a wide display and a Q-marked steering wheel, at dusk.",
         frame: "banner",
         view: "interior",
@@ -131,7 +131,7 @@ export const vehicles: Vehicle[] = [
     fees: { delivery: 1900, registration: 750, documentation: 420 },
     shots: [
       {
-        src: "/vehicles/v09-exterior.jpg",
+        src: `${import.meta.env.BASE_URL}vehicles/v09-exterior.jpg`,
         alt: "Black QORVEX V09 luxury grand SUV on a wet terrace at night, with a light signature across the nose.",
         frame: "banner",
         view: "exterior",
@@ -139,7 +139,7 @@ export const vehicles: Vehicle[] = [
         height: 313,
       },
       {
-        src: "/vehicles/v09-dash.jpg",
+        src: `${import.meta.env.BASE_URL}vehicles/v09-dash.jpg`,
         alt: "QORVEX V09 ivory dashboard at night, with a Q steering mark and a wide display facing a city skyline.",
         frame: "banner",
         view: "interior",
@@ -147,7 +147,7 @@ export const vehicles: Vehicle[] = [
         height: 313,
       },
       {
-        src: "/vehicles/v09-cabin.jpg",
+        src: `${import.meta.env.BASE_URL}vehicles/v09-cabin.jpg`,
         alt: "QORVEX V09 rear cabin in ivory leather, with screens on the front seatbacks, overlooking a night city.",
         frame: "banner",
         view: "interior",
@@ -209,7 +209,7 @@ export const vehicles: Vehicle[] = [
     fees: { delivery: 4600, registration: 900, documentation: 640 },
     shots: [
       {
-        src: "/vehicles/xt-front.jpg",
+        src: `${import.meta.env.BASE_URL}vehicles/xt-front.jpg`,
         alt: "Dark QORVEX X-T six-wheel off-roader facing forward on a rocky mountain track at dusk, with a light bar and front winch.",
         frame: "poster",
         view: "exterior",
@@ -217,7 +217,7 @@ export const vehicles: Vehicle[] = [
         height: 1028,
       },
       {
-        src: "/vehicles/xt-rear.jpg",
+        src: `${import.meta.env.BASE_URL}vehicles/xt-rear.jpg`,
         alt: "QORVEX X-T six-wheeler seen from the rear three-quarter on red desert rock at sunset, with vertical tail lamps and a Q mark.",
         frame: "poster",
         view: "exterior",
@@ -225,7 +225,7 @@ export const vehicles: Vehicle[] = [
         height: 1023,
       },
       {
-        src: "/vehicles/xt-interior.jpg",
+        src: `${import.meta.env.BASE_URL}vehicles/xt-interior.jpg`,
         alt: "QORVEX X-T cabin in black leather, with a digital cluster, Q-marked wheel, and a three-place rear bench, doors open to mountains.",
         frame: "poster",
         view: "interior",
@@ -285,7 +285,7 @@ export const vehicles: Vehicle[] = [
     fees: { delivery: 7200, registration: 1200, documentation: 880 },
     shots: [
       {
-        src: "/vehicles/awk-exterior.jpg",
+        src: `${import.meta.env.BASE_URL}vehicles/awk-exterior.jpg`,
         alt: "Black AWK Soul hypercar in profile on a racetrack, with a large rear wing, low nose, and yellow brake calipers.",
         frame: "poster",
         view: "exterior",
@@ -293,7 +293,7 @@ export const vehicles: Vehicle[] = [
         height: 1024,
       },
       {
-        src: "/vehicles/awk-interior.jpg",
+        src: `${import.meta.env.BASE_URL}vehicles/awk-interior.jpg`,
         alt: "AWK Soul carbon cockpit at sunset, with a faceted steering wheel, digital cluster, and deeply bolstered seats.",
         frame: "poster",
         view: "interior",
